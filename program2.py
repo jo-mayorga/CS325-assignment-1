@@ -1,0 +1,12 @@
+def newFeature(num):
+    match num:
+        case 1:
+            return 'A'
+        case 4:
+            return 'D'
+        case 10:
+            return 'T'
+        case 64:
+            return 'Z'
+        case _:
+            return '0'
